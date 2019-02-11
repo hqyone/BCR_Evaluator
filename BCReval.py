@@ -2,8 +2,11 @@
 # BCR evaluator is used to evaluate bisulfite conversion ratio in WGSBS experiment
 # Author : Quanyuan He Ph.D
 # Email : hqyone@hunnu.edu.com
+# Insititution: School of Medicine, Hunan Normal University
+# Licensed under the MIT License
 # Last update: 2019/02/11
 # version: 1.3
+
 import sys, getopt
 import re , os
 import gzip
