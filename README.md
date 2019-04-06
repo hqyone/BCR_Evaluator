@@ -17,8 +17,8 @@ Example:
 In which:
 1. File: home/server3/data2/zmq/ENCFF329YKL.fastq.gz
 2. Type : +             //from FASTQ_1(+) or FASTQ_2(-)
-3. Min_unit_count : 8   //The mininal number of telomeric rep units
-4. Total_reads: 925473550  //Read number in the FASTQ file
+3. Min_unit_count : 8   //The minimal number of telomeric rep units
+4. Total_reads: 925473550  //Total number of reads in the FASTQ file
 5. Telomeric reads: 125151 . // Telomeric reads numbers
 6. Total_n3_reads:0     //The total number of reads which contain N3 units that has three methylated cytosines 
 7. total_unit_num:2022759 . //The number of telomeric units in the files (All reads)
