@@ -6,7 +6,8 @@ Whole genome shotgun bisulfite sequencing (WGSBS) also known as BS-seq has been 
 ## Usage information
 Usage: pythob BCReval.py -n <rep_number> -i <input_files> -o <output_file>
 
-The input_file should be a FASTQ file or a list of FASTQ files which are seperated by commas. It has been tested in python 2.7
+The input_file should be a FASTQ file or a list of FASTQ files which are seperated by commas. 
+It has been tested in python 2.7
 
 ## Output format
 The output is a string including 15 fields which are seperated by tabs.
