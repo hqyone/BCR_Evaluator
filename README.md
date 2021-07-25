@@ -32,5 +32,5 @@ In which:
 14. rc2: 0.0034 . //The unconverted/methylated ratio of the second C
 15. rc3: 0.0028 . //The unconverted/methylated ratio of the third C
 
-## Conversion ratio (CP)
-CP = 1-Mean(rc1, rc2, rc3)
+## Conversion ratio (CR)
+CR = 1-Mean(rc1, rc2, rc3)
