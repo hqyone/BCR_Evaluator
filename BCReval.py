@@ -93,8 +93,8 @@ def findBestTelomereMatch(seq):
 #a = findLongestTelomereMatch(testTeloSeq, p0)
 
 def getTeloRepCount(min_unit_count, fastq_file):
-    len_dic0 = [0]*25
-    len_dic1 = [0]*25
+    len_dic0 = [0]*30
+    len_dic1 = [0]*30
     report = ResultReport(fastq_file)
 
     python_version = sys.version_info[0]
