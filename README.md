@@ -3,6 +3,9 @@ BCR evaluator is used to evaluate bisulfite conversion ratio in WGSBS experiment
 
 Whole genome shotgun bisulfite sequencing (WGSBS) also known as BS-seq has been widely used to measure the methylation of whole genome at single-base resolution. One of the key steps in the assay is converting unmethylated cytosines into thymines (BS conversion). Incomplete conversion of unmethylated cytosines can introduces false positive methylation call. Developing a quick method to evaluate bisulfite conversion ratio (BCR) is benefit for both quality control and data analysis of WGSBS. Here BCReval is a small python script to estimate the unconverted rate (UCR) by using telomeric repetitive DNA as native spike-in control.
 
+## References
+Zhou J, Zhao M, Sun Z, Wu F, Liu Y, Liu X, He Z, He Q, He Q. BCREval: a computational method to estimate the bisulfite conversion ratio in WGBS. BMC Bioinformatics. 2020 Jan 31;21(1):38. doi: 10.1186/s12859-019-3334-z. PMID: 32005131; PMCID: PMC6995172.
+
 ## Usage information
 Usage: python BCReval.py -n <rep_number> -i <input_files> -o <output_file>
 
