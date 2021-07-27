@@ -250,9 +250,9 @@ def getTeloRepCount(min_unit_count, fastq_file):
         report.total_n3_reads = g_n3_read_number
     report.total_unit_num = total_unit_num
     report.c_strand_unit_num = c_strand_unit_num
-    report.rc1 = round(float(site1) / c_strand_unit_num, 4)
-    report.rc2 = round(float(site2) / c_strand_unit_num, 4)
-    report.rc3 = round(float(site3) / c_strand_unit_num, 4)
+    report.rc1 = round(float(site1) / (c_strand_unit_num+1), 4)
+    report.rc2 = round(float(site2) / (c_strand_unit_num+1), 4)
+    report.rc3 = round(float(site3) / (c_strand_unit_num+1), 4)
 
     """
     complete_transform_unit_num = tel_seq_dic0['TTTTAA']+tel_seq_dic1['TTAAAA']
